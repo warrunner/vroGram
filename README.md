@@ -4,7 +4,7 @@ The webapp for one and all. Post your favorite pictures, add comments, share eve
 
 # Clone
 
-This is a instagram clone using the the tech stack of react and firebase. The server is live and available at: https://instagram-clone-ce5d3.web.app/
+This is an instagram clone using the tech stack of react and firebase. The server is live and available at: https://vrogram-ec2ca.web.app/
 
 
 # Getting Started with Create React App
