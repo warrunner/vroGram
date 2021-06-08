@@ -81,6 +81,10 @@ function App() {
 
   const signUp = (event) => {
     event.preventDefault();
+    if(username.length < 3 ){
+      alert('Please Chose a valid username')
+    }
+    else {
     auth
     .createUserWithEmailAndPassword(email,password)
     .then((authUser) => {
@@ -95,6 +99,7 @@ function App() {
     })
     .catch((error) => alert(error.message))
     setOpen(false);
+  }
   }
 
   const signIn = (event) =>{
