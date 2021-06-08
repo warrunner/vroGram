@@ -55,6 +55,7 @@ function Post({postId, user, username, caption, imageUrl}) {
             
             <h4 className="post__text"><strong>{username}</strong> {caption}</h4>
             <div className="post__comments">
+            <p className="comment__count"><b>Comments</b> {comments.length}</p>
                 {comments.map((comment)=>{
                     return <p><strong>{comment.username}</strong> {comment.text} </p>
                 })}

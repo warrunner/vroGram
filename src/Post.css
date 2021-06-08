@@ -16,6 +16,7 @@
 .post__text {
     font-weight: normal;
     padding: 10px;
+    
 }
 
 .post__header {
@@ -31,6 +32,7 @@
 .post__Box {
     display: flex;
     margin-top: 10px;
+    
 }
 
 .post__input {
@@ -46,4 +48,13 @@
 
 .post__comments{
     padding: 20px;
+}
+
+.comment__count {
+    margin-bottom: 2px;
+    
+    text-decoration-color: gray;
+    border-bottom: 2px solid lightgray;
+    font-family: 'Source Serif Pro', serif;
+
 }
