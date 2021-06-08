@@ -24,7 +24,7 @@ function getModalStyle() {
 const useStyles = makeStyles((theme) => ({
   paper: {
     position: 'absolute',
-    width: 400,
+    width: 200,
     backgroundColor: theme.palette.background.paper,
     border: '2px solid #000',
     boxShadow: theme.shadows[5],
@@ -183,12 +183,13 @@ function App() {
       </Modal>
 
     <div className="app__header">
-        <img 
+        {/* <img 
         alt=""
           className="app__headerImage"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1024px-Instagram_logo.svg.png">
           
-        </img>
+        </img> */}
+        <h1 className="vro">Vrogram</h1>
         {user ? (
         <Button onClick={()=> auth.signOut()}>LogOut</Button>
       ): (
